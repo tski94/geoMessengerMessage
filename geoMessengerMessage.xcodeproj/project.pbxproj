@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C0D074B20B7277F805939D /* Pods_geoMessengerMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC77C0D34A9E75DC8D64CA0 /* Pods_geoMessengerMessage.framework */; };
+		3DA377651E8C8A8900FFADCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA377641E8C8A8900FFADCD /* AppDelegate.swift */; };
+		3DA377671E8C8A8900FFADCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA377661E8C8A8900FFADCD /* ViewController.swift */; };
+		3DA3776A1E8C8A8900FFADCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA377681E8C8A8900FFADCD /* Main.storyboard */; };
+		3DA3776C1E8C8A8900FFADCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3776B1E8C8A8900FFADCD /* Assets.xcassets */; };
+		3DA3776F1E8C8A8900FFADCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3776D1E8C8A8900FFADCD /* LaunchScreen.storyboard */; };
+		3DE5936E1E8C8E8B00E8EC47 /* TablesTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5936D1E8C8E8B00E8EC47 /* TablesTabBarViewController.swift */; };
+		3DE593701E8C8FF200E8EC47 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5936F1E8C8FF200E8EC47 /* TableViewController.swift */; };
+		3DE593821E8C91FB00E8EC47 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE593761E8C91FB00E8EC47 /* AkiraTextField.swift */; };
+		3DE593831E8C91FB00E8EC47 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE593771E8C91FB00E8EC47 /* HoshiTextField.swift */; };
+		3DE593841E8C91FB00E8EC47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DE593781E8C91FB00E8EC47 /* Info.plist */; };
+		3DE593851E8C91FB00E8EC47 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE593791E8C91FB00E8EC47 /* IsaoTextField.swift */; };
+		3DE593861E8C91FB00E8EC47 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5937A1E8C91FB00E8EC47 /* JiroTextField.swift */; };
+		3DE593871E8C91FB00E8EC47 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5937B1E8C91FB00E8EC47 /* KaedeTextField.swift */; };
+		3DE593881E8C91FB00E8EC47 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5937C1E8C91FB00E8EC47 /* MadokaTextField.swift */; };
+		3DE593891E8C91FB00E8EC47 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5937D1E8C91FB00E8EC47 /* MinoruTextField.swift */; };
+		3DE5938A1E8C91FB00E8EC47 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5937F1E8C91FB00E8EC47 /* TextFieldEffects.swift */; };
+		3DE5938B1E8C91FB00E8EC47 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE593801E8C91FB00E8EC47 /* YokoTextField.swift */; };
+		3DE5938C1E8C91FB00E8EC47 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE593811E8C91FB00E8EC47 /* YoshikoTextField.swift */; };
+		3DE5938E1E8C93A200E8EC47 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE5938D1E8C93A200E8EC47 /* CustomButton.swift */; };
+		3DE593941E8D647F00E8EC47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DE593931E8D647F00E8EC47 /* GoogleService-Info.plist */; };
+		3DE593961E8D676700E8EC47 /* userItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE593951E8D676700E8EC47 /* userItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DA377611E8C8A8900FFADCD /* geoMessengerMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoMessengerMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA377641E8C8A8900FFADCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DA377661E8C8A8900FFADCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DA377691E8C8A8900FFADCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DA3776B1E8C8A8900FFADCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA3776E1E8C8A8900FFADCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DA377701E8C8A8900FFADCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE5936D1E8C8E8B00E8EC47 /* TablesTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablesTabBarViewController.swift; sourceTree = "<group>"; };
+		3DE5936F1E8C8FF200E8EC47 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3DE593761E8C91FB00E8EC47 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/AkiraTextField.swift"; sourceTree = "<group>"; };
+		3DE593771E8C91FB00E8EC47 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/HoshiTextField.swift"; sourceTree = "<group>"; };
+		3DE593781E8C91FB00E8EC47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/Info.plist"; sourceTree = "<group>"; };
+		3DE593791E8C91FB00E8EC47 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/IsaoTextField.swift"; sourceTree = "<group>"; };
+		3DE5937A1E8C91FB00E8EC47 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/JiroTextField.swift"; sourceTree = "<group>"; };
+		3DE5937B1E8C91FB00E8EC47 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/KaedeTextField.swift"; sourceTree = "<group>"; };
+		3DE5937C1E8C91FB00E8EC47 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/MadokaTextField.swift"; sourceTree = "<group>"; };
+		3DE5937D1E8C91FB00E8EC47 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/MinoruTextField.swift"; sourceTree = "<group>"; };
+		3DE5937E1E8C91FB00E8EC47 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextFieldEffects.h; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/TextFieldEffects.h"; sourceTree = "<group>"; };
+		3DE5937F1E8C91FB00E8EC47 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/TextFieldEffects.swift"; sourceTree = "<group>"; };
+		3DE593801E8C91FB00E8EC47 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/YokoTextField.swift"; sourceTree = "<group>"; };
+		3DE593811E8C91FB00E8EC47 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = "../../../Downloads/TextFieldEffects-master/TextFieldEffects/TextFieldEffects/YoshikoTextField.swift"; sourceTree = "<group>"; };
+		3DE5938D1E8C93A200E8EC47 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3DE593931E8D647F00E8EC47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DE593951E8D676700E8EC47 /* userItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userItem.swift; sourceTree = "<group>"; };
+		6BC77C0D34A9E75DC8D64CA0 /* Pods_geoMessengerMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoMessengerMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		866976D0E212AA0696143EFC /* Pods-geoMessengerMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessengerMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessengerMessage/Pods-geoMessengerMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		9255346BFBF89FDDF2005B14 /* Pods-geoMessengerMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessengerMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessengerMessage/Pods-geoMessengerMessage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA3775E1E8C8A8800FFADCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C0D074B20B7277F805939D /* Pods_geoMessengerMessage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA377581E8C8A8800FFADCD = {
+			isa = PBXGroup;
+			children = (
+				3DE593931E8D647F00E8EC47 /* GoogleService-Info.plist */,
+				3DA377631E8C8A8900FFADCD /* geoMessengerMessage */,
+				3DA377621E8C8A8900FFADCD /* Products */,
+				919A47C558046C48C206BC44 /* Pods */,
+				AFF05200C534ABD9A6444074 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA377621E8C8A8900FFADCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA377611E8C8A8900FFADCD /* geoMessengerMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA377631E8C8A8900FFADCD /* geoMessengerMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3DE5936C1E8C8E4E00E8EC47 /* Custom Controls */,
+				3DA377641E8C8A8900FFADCD /* AppDelegate.swift */,
+				3DA377661E8C8A8900FFADCD /* ViewController.swift */,
+				3DA377681E8C8A8900FFADCD /* Main.storyboard */,
+				3DA3776B1E8C8A8900FFADCD /* Assets.xcassets */,
+				3DA3776D1E8C8A8900FFADCD /* LaunchScreen.storyboard */,
+				3DA377701E8C8A8900FFADCD /* Info.plist */,
+				3DE5936D1E8C8E8B00E8EC47 /* TablesTabBarViewController.swift */,
+				3DE5936F1E8C8FF200E8EC47 /* TableViewController.swift */,
+				3DE593951E8D676700E8EC47 /* userItem.swift */,
+			);
+			path = geoMessengerMessage;
+			sourceTree = "<group>";
+		};
+		3DE5936C1E8C8E4E00E8EC47 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				3DE593761E8C91FB00E8EC47 /* AkiraTextField.swift */,
+				3DE593771E8C91FB00E8EC47 /* HoshiTextField.swift */,
+				3DE593781E8C91FB00E8EC47 /* Info.plist */,
+				3DE593791E8C91FB00E8EC47 /* IsaoTextField.swift */,
+				3DE5937A1E8C91FB00E8EC47 /* JiroTextField.swift */,
+				3DE5937B1E8C91FB00E8EC47 /* KaedeTextField.swift */,
+				3DE5937C1E8C91FB00E8EC47 /* MadokaTextField.swift */,
+				3DE5937D1E8C91FB00E8EC47 /* MinoruTextField.swift */,
+				3DE5937E1E8C91FB00E8EC47 /* TextFieldEffects.h */,
+				3DE5937F1E8C91FB00E8EC47 /* TextFieldEffects.swift */,
+				3DE593801E8C91FB00E8EC47 /* YokoTextField.swift */,
+				3DE593811E8C91FB00E8EC47 /* YoshikoTextField.swift */,
+				3DE5938D1E8C93A200E8EC47 /* CustomButton.swift */,
+			);
+			name = "Custom Controls";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		919A47C558046C48C206BC44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				866976D0E212AA0696143EFC /* Pods-geoMessengerMessage.debug.xcconfig */,
+				9255346BFBF89FDDF2005B14 /* Pods-geoMessengerMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFF05200C534ABD9A6444074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BC77C0D34A9E75DC8D64CA0 /* Pods_geoMessengerMessage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA377601E8C8A8800FFADCD /* geoMessengerMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA377731E8C8A8900FFADCD /* Build configuration list for PBXNativeTarget "geoMessengerMessage" */;
+			buildPhases = (
+				8CBBC85C28D4C9A07F8D048B /* [CP] Check Pods Manifest.lock */,
+				3DA3775D1E8C8A8800FFADCD /* Sources */,
+				3DA3775E1E8C8A8800FFADCD /* Frameworks */,
+				3DA3775F1E8C8A8800FFADCD /* Resources */,
+				843D136393AD449424BA59A5 /* [CP] Embed Pods Frameworks */,
+				03EF3274D40A06F1D2C0ACB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geoMessengerMessage;
+			productName = geoMessengerMessage;
+			productReference = 3DA377611E8C8A8900FFADCD /* geoMessengerMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA377591E8C8A8800FFADCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Marquette University";
+				TargetAttributes = {
+					3DA377601E8C8A8800FFADCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6J6CV2P46G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DA3775C1E8C8A8800FFADCD /* Build configuration list for PBXProject "geoMessengerMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA377581E8C8A8800FFADCD;
+			productRefGroup = 3DA377621E8C8A8900FFADCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA377601E8C8A8800FFADCD /* geoMessengerMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA3775F1E8C8A8800FFADCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA3776F1E8C8A8900FFADCD /* LaunchScreen.storyboard in Resources */,
+				3DA3776C1E8C8A8900FFADCD /* Assets.xcassets in Resources */,
+				3DE593941E8D647F00E8EC47 /* GoogleService-Info.plist in Resources */,
+				3DA3776A1E8C8A8900FFADCD /* Main.storyboard in Resources */,
+				3DE593841E8C91FB00E8EC47 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03EF3274D40A06F1D2C0ACB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessengerMessage/Pods-geoMessengerMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843D136393AD449424BA59A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessengerMessage/Pods-geoMessengerMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBBC85C28D4C9A07F8D048B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA3775D1E8C8A8800FFADCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE5938C1E8C91FB00E8EC47 /* YoshikoTextField.swift in Sources */,
+				3DE593881E8C91FB00E8EC47 /* MadokaTextField.swift in Sources */,
+				3DA377671E8C8A8900FFADCD /* ViewController.swift in Sources */,
+				3DE5938A1E8C91FB00E8EC47 /* TextFieldEffects.swift in Sources */,
+				3DA377651E8C8A8900FFADCD /* AppDelegate.swift in Sources */,
+				3DE5936E1E8C8E8B00E8EC47 /* TablesTabBarViewController.swift in Sources */,
+				3DE593891E8C91FB00E8EC47 /* MinoruTextField.swift in Sources */,
+				3DE593961E8D676700E8EC47 /* userItem.swift in Sources */,
+				3DE593861E8C91FB00E8EC47 /* JiroTextField.swift in Sources */,
+				3DE593831E8C91FB00E8EC47 /* HoshiTextField.swift in Sources */,
+				3DE5938B1E8C91FB00E8EC47 /* YokoTextField.swift in Sources */,
+				3DE593851E8C91FB00E8EC47 /* IsaoTextField.swift in Sources */,
+				3DE593871E8C91FB00E8EC47 /* KaedeTextField.swift in Sources */,
+				3DE593701E8C8FF200E8EC47 /* TableViewController.swift in Sources */,
+				3DE593821E8C91FB00E8EC47 /* AkiraTextField.swift in Sources */,
+				3DE5938E1E8C93A200E8EC47 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DA377681E8C8A8900FFADCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA377691E8C8A8900FFADCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DA3776D1E8C8A8900FFADCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA3776E1E8C8A8900FFADCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA377711E8C8A8900FFADCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA377721E8C8A8900FFADCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA377741E8C8A8900FFADCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866976D0E212AA0696143EFC /* Pods-geoMessengerMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6J6CV2P46G;
+				INFOPLIST_FILE = geoMessengerMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MU.9849suchart.geoMessengerMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DA377751E8C8A8900FFADCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9255346BFBF89FDDF2005B14 /* Pods-geoMessengerMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6J6CV2P46G;
+				INFOPLIST_FILE = geoMessengerMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MU.9849suchart.geoMessengerMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA3775C1E8C8A8800FFADCD /* Build configuration list for PBXProject "geoMessengerMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA377711E8C8A8900FFADCD /* Debug */,
+				3DA377721E8C8A8900FFADCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA377731E8C8A8900FFADCD /* Build configuration list for PBXNativeTarget "geoMessengerMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA377741E8C8A8900FFADCD /* Debug */,
+				3DA377751E8C8A8900FFADCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA377591E8C8A8800FFADCD /* Project object */;
+}
